@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "URL Navigator",
+  "description": "在输入框输入网址并快速导航",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ]
+} 

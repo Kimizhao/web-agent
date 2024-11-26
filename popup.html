@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .input-group {
+      display: flex;
+      gap: 8px;
+    }
+    #urlInput, #searchInput {
+      flex: 1;
+      padding: 6px;
+    }
+    #submitBtn {
+      padding: 6px 12px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    #submitBtn:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="input-group">
+      <input type="text" id="urlInput" placeholder="输入网址...">
+      <button id="submitBtn">访问</button>
+    </div>
+    <input type="text" id="searchInput" placeholder="输入搜索内容...">
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
